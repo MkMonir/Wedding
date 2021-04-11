@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: color;
+    background-color: rgba(black,.56);
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service{
+    margin: 4rem 15rem;
+    margin-bottom: 5rem;
+}
+
+.blog{
+    margin: 4rem 15rem;
+    margin-bottom: 5rem;
+    height: 50rem;
+}
+
+
+.form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 100%;
+    height: 46rem;
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

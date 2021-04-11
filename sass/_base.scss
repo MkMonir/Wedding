@@ -1,0 +1,37 @@
+:root{
+    --color-primary: #ed7e9e;
+    --color-primary-dark: #f07677;
+    --color-heading-gray: #505050;
+    --color-text-light: #8B8B8B;
+    --color-text-gray: #989898;
+}
+
+//$bp-largest: 75em;     // 1200px
+//$bp-large: 68.75em;    // 1100px
+//$bp-medium: 56.25em;   // 900px
+//$bp-small: 37.5em;     // 600px
+//$bp-smallest: 31.25em; // 500px
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    line-height: 1.6;
+    min-height: 100vh;
+}
